@@ -6,8 +6,7 @@
   "scripts": {
     "start": "concurrently \"npm run client\"   \"npm run server\" ",
     "client": "cd ./Client && npm start",
-    "server": "cd ./Server && yarn dev",
-    "install:all": "cd ./Server && yarn && cd ../Client && npm install"
+    "server": "cd ./Server && yarn dev"
   },
   "repository": {
     "type": "git",
