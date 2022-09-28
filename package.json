@@ -4,7 +4,10 @@
   "description": "A certificate generation tool for institutes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"npm run client\"   \"npm run server\" ",
+    "client": "cd ./Client && npm start",
+    "server": "cd ./Server && yarn dev",
+    "install:all": "cd ./Server && yarn && cd ../Client && npm install"
   },
   "repository": {
     "type": "git",
