@@ -4,8 +4,8 @@
   "description": "A certificate generation tool for institutes",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run client\"   \"npm run server\" ",
-    "client": "cd ./Client && npm start",
+    "start:all": "concurrently \"npm run client\"   \"npm run server\" ",
+    "start": "cd ./Client && npm start",
     "server": "cd ./Server && yarn dev"
   },
   "repository": {
