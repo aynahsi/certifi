@@ -90,7 +90,7 @@ const Signup = () => {
                             font-semibold font-display focus:outline-none focus:shadow-outline hover:bg-indigo-600
                             shadow-lg"
                   >
-                    Sign Up
+                    Next
                   </button>
                 </div>
               </form>
